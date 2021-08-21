@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,400&family=Nunito:ital,wght@0,300;1,300&display=swap');
+
 @import "normalize.css";
 @import "base/_variables.scss";
 @import "base/_global.scss";
+
+@import "modules/_container.scss";
+@import "modules/_sidebar.scss";
+@import "modules/_header.scss";
+@import "modules/_realtors.scss";
+@import "modules/_features.scss";
+@import "modules/_story.scss";
+@import "modules/_homes.scss";
+@import "modules/_gallery.scss";
+@import "modules/_footer.scss";
 
 

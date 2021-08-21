@@ -1,0 +1,15 @@
+.container{
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw  repeat(3, min-content);
+  grid-template-columns: [sidebar-start]  8rem  [sidebar-end full-start]  minmax(6rem, 1fr)  [center-start]  repeat(8,  [col-start]  minmax(min-content, 14rem) [col-end] )  [center-end]  minmax(6rem, 1fr)  [full-end];
+
+  /*
+    In the code repeat(8, minmax(min-content, 14rem)), 14rem is derived  from 
+    calculating 1140/8 = 142.5
+    "8 refers to the 8 columns being created" 
+
+    142.5/10 = 14.25 *round of to 140*
+    " 10 refers to the root font size set in the global.scss file (10px/16px = 62.5% -> 1rem = 10px)"
+  */
+
+}
